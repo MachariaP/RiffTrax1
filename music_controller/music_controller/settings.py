@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # Add our new application to the list of installed apps
     'api.apps.ApiConfig',
     'rest_framework',
+    'frontend.apps.FrontendConfig',
 ]
 
 MIDDLEWARE = [
